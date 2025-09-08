@@ -1,5 +1,7 @@
 import React from 'react';
 import { ExternalLink, Github, Star } from 'lucide-react';
+import Hotel from '../images/Hotel.jpg';
+import Image from '../images/Image.png';
 
 const Projects: React.FC = () => {
   const projects = [
@@ -15,7 +17,7 @@ const Projects: React.FC = () => {
     {
       title: 'Hotel Management System',
       description: 'Hotel Management System enabling guests to order food, request service via web',
-      image: '/src/images/Hotel.jpg',
+      image: Hotel,
       tags: ['Django', 'HTML'],
       demoUrl: '#',
       githubUrl: 'https://github.com/ghartisangit/Hotel-Management-System/tree/main/hotel_appt',
@@ -24,7 +26,7 @@ const Projects: React.FC = () => {
     {
       title: 'Mero Palika',
       description: 'Mero Palika is a digital platform which is designed to streamline citizen services like complaints, training and vacancy announcement.',
-      image: '/src/images/Image.png',
+      image: Image,
       tags: ['Django', 'Bootstrap','Html'],
       demoUrl: '#',
       githubUrl: 'https://github.com/ghartisangit/Mero_Palika',

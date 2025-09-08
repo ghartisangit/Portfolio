@@ -1,6 +1,6 @@
 import React from 'react';
 import { Code, Heart, Lightbulb } from 'lucide-react';
-
+import Sangit from '../images/sangit.jpg';
 const About: React.FC = () => {
   return (
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -18,7 +18,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-teal-400 p-1">
                 <img
-                  src="/src/images/sangit.jpg"
+                  src={Sangit}
                   alt="Profile"
                   className="w-full h-full rounded-full object-cover"
                 />
