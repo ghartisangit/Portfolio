@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
 
   const socialLinks = [
     { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-400' },
-    { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-gray-400' },
+    { icon: Github, href: 'https://github.com/ghartisangit', label: 'GitHub', color: 'hover:text-gray-400' },
     { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:text-blue-300' }
   ];
 
@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-gray-300 text-sm">Email</p>
-                  <p className="text-gray-100 font-semibold">john@example.com</p>
+                  <p className="text-gray-100 font-semibold">magarsangit863@gmail.com</p>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-gray-300 text-sm">Phone</p>
-                  <p className="text-gray-100 font-semibold">+1 (555) 123-4567</p>
+                  <p className="text-gray-100 font-semibold">9844741138</p>
                 </div>
               </div>
 
@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-gray-300 text-sm">Location</p>
-                  <p className="text-gray-100 font-semibold">San Francisco, CA</p>
+                  <p className="text-gray-100 font-semibold">New Baneshwar, KTM</p>
                 </div>
               </div>
             </div>

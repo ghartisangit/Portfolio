@@ -4,28 +4,18 @@ const Skills: React.FC = () => {
   const skillCategories = [
     {
       title: 'Programming Languages',
-      skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'Go'],
+      skills: ['JavaScript',  'Python', 'C#', 'C'],
       color: 'from-blue-500 to-blue-700'
     },
     {
-      title: 'Frontend Frameworks',
-      skills: ['React', 'Next.js', 'Vue.js', 'Angular', 'Svelte'],
+      title: 'Frameworks',
+      skills: ['.NET', 'ASP.NET Core MVC', 'Entity Framework Core', 'ADO.NET', 'Django'],
       color: 'from-teal-500 to-teal-700'
     },
     {
-      title: 'Backend & Database',
-      skills: ['Node.js', 'Express', 'PostgreSQL', 'MongoDB', 'Redis'],
-      color: 'from-purple-500 to-purple-700'
-    },
-    {
       title: 'Tools & Technologies',
-      skills: ['Docker', 'AWS', 'Git', 'Kubernetes', 'GraphQL'],
+      skills: [ 'Git', 'Postman', 'MySQL'],
       color: 'from-orange-500 to-orange-700'
-    },
-    {
-      title: 'AI & Machine Learning',
-      skills: ['TensorFlow', 'PyTorch', 'OpenAI API', 'Scikit-learn', 'Pandas'],
-      color: 'from-green-500 to-green-700'
     },
     {
       title: 'Soft Skills',

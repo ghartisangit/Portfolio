@@ -4,41 +4,32 @@ import { ExternalLink, Github, Star } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'AI-Powered Task Manager',
-      description: 'A smart task management application that uses machine learning to prioritize tasks and predict completion times. Built with React, Node.js, and TensorFlow.',
+      title: 'Education Management Information System',
+      description: 'Education Management Information System where all the works related to college can be done like attendence, giving assignment and many others task',
       image: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg',
-      tags: ['React', 'Node.js', 'AI/ML', 'MongoDB'],
+      tags: ['Django', 'HTML'],
       demoUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/ghartisangit/Education-Management-Information-System.git',
       featured: true
     },
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with real-time inventory management, payment integration, and analytics dashboard.',
-      image: 'https://images.pexels.com/photos/34577/pexels-photo.jpg',
-      tags: ['Next.js', 'Stripe', 'PostgreSQL', 'Redis'],
+      title: 'Hotel Management System',
+      description: 'Hotel Management System enabling guests to order food, request service via web',
+      image: '/src/images/Hotel.jpg',
+      tags: ['Django', 'HTML'],
       demoUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/ghartisangit/Hotel-Management-System/tree/main/hotel_appt',
       featured: true
     },
     {
-      title: 'Real-time Chat Application',
-      description: 'Secure messaging platform with end-to-end encryption, file sharing, and video calling capabilities.',
-      image: 'https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg',
-      tags: ['React', 'Socket.io', 'WebRTC', 'Express'],
+      title: 'Mero Palika',
+      description: 'Mero Palika is a digital platform which is designed to streamline citizen services like complaints, training and vacancy announcement.',
+      image: '/src/images/Image.png',
+      tags: ['Django', 'Bootstrap','Html'],
       demoUrl: '#',
-      githubUrl: '#',
-      featured: false
+      githubUrl: 'https://github.com/ghartisangit/Mero_Palika',
+      featured: true
     },
-    {
-      title: 'Data Visualization Dashboard',
-      description: 'Interactive analytics dashboard for business intelligence with real-time data processing and custom visualizations.',
-      image: 'https://images.pexels.com/photos/590041/pexels-photo-590041.jpg',
-      tags: ['D3.js', 'React', 'Python', 'FastAPI'],
-      demoUrl: '#',
-      githubUrl: '#',
-      featured: false
-    }
   ];
 
   return (
@@ -100,13 +91,13 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div className="flex gap-4">
-                  <a
+                  {/* <a
                     href={project.demoUrl}
                     className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-white font-medium transition-colors duration-200"
                   >
                     <ExternalLink size={16} />
                     Live Demo
-                  </a>
+                  </a> */}
                   <a
                     href={project.githubUrl}
                     className="flex items-center gap-2 border border-gray-600 hover:border-gray-500 px-4 py-2 rounded-lg text-gray-300 hover:text-white font-medium transition-colors duration-200"

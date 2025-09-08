@@ -22,10 +22,10 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
-              John Developer
+              Sangit Gharti Magar
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Passionate software developer creating innovative solutions and exceptional digital experiences.
+              Passionate .NET and django developer
             </p>
           </div>
 
@@ -54,9 +54,9 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-gray-200">Get In Touch</h4>
             <div className="space-y-2 text-gray-400">
-              <p>john@example.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              <p>magarsangit863@gmail.com</p>
+              <p>9844741138</p>
+              <p>New Baneshwar, KTM</p>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2 text-gray-400">
-            <span>© 2025 John Developer. Made with</span>
+            <span>© 2025 Sangit Gharti Magar. Made with</span>
             <Heart size={16} className="text-red-400 animate-pulse" />
             <span>and lots of coffee</span>
           </div>

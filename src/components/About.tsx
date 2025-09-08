@@ -18,7 +18,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-teal-400 p-1">
                 <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+                  src="/src/images/sangit.jpg"
                   alt="Profile"
                   className="w-full h-full rounded-full object-cover"
                 />
@@ -36,16 +36,16 @@ const About: React.FC = () => {
             </h3>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              With over 5 years of experience in software development, I specialize in creating 
-              innovative digital solutions that bridge the gap between technology and user experience. 
-              My journey began with a curiosity for how things work and evolved into a passion for 
-              building products that make a difference.
+              Hi! I'm Sangit Gharti Magar, a passionate learner exploring both .NET and Django to build functional, 
+              user-friendly applications. I enjoy solving real-world problems with clean, scalable code and love 
+              experimenting with frontend tools like HTML, CSS, JavaScript, and Bootstrap. Always eager to learn, 
+              I aim to craft solutions that reflect creativity, purpose, and growth.
             </p>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              I thrive in collaborative environments where I can contribute to meaningful projects 
-              while continuously learning and growing. My expertise spans full-stack development, 
-              with a particular interest in AI/ML integration and modern web technologies.
+              Beyond coding, I’m a sports enthusiast who enjoys staying active and embracing the spirit of teamwork 
+              and discipline that sports bring. I believe this energy helps me stay motivated, focused, and 
+              inspired to tackle challenges both on and off the field.
             </p>
 
             {/* Interests */}
