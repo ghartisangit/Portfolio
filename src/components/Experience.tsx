@@ -50,7 +50,7 @@ const Experience: React.FC = () => {
       company: '------',
       location: '------',
       period: '---',
-      description: 'No internship experience yet',
+      description: 'No internship experience yet .....',
     },
   ];
 
