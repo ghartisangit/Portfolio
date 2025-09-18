@@ -47,10 +47,10 @@ const Experience: React.FC = () => {
     {
       type: 'work',
       title: 'Internship',
-      company: 'Tech Company',
-      location: 'Kathmandu, Nepal',
-      period: '2023',
-      description: 'Worked on .NET backend and contributed to building scalable APIs with proper documentation.',
+      company: '------',
+      location: '------',
+      period: '---',
+      description: 'No internship experience yet',
     },
   ];
 

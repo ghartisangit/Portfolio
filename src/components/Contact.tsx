@@ -30,9 +30,8 @@ const Contact: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-400' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/sangit-gharti-magar', label: 'LinkedIn', color: 'hover:text-blue-400' },
     { icon: Github, href: 'https://github.com/ghartisangit', label: 'GitHub', color: 'hover:text-gray-400' },
-    { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:text-blue-300' }
   ];
 
   return (
